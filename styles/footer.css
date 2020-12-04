@@ -1,0 +1,100 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
+.footer-navigation {
+  display: flex;
+  width: 1140px;
+  height: 338px;
+  margin: 0 auto;
+}
+
+.about-company {
+  margin-top: 43px;
+}
+
+.footer__description {
+  line-height: 26px;
+  font-size: 18px;
+  width: 360px;
+  margin-top: 26px;
+  color: rgba(43, 41, 45, 0.6);
+}
+
+.downloads {
+  margin-top: 25px;
+}
+
+.downloads__item {
+  margin-right: 10px;
+}
+
+.additional-navigation {
+  display: flex;
+  margin-top: 60px;
+  margin-left: auto;
+}
+
+.additional-navigation__column {
+  margin-right: 29px;
+}
+
+.nav-links {
+  width: 265px;
+}
+
+.nav-links__title {
+  margin: 0;
+  color: #2b292d;
+
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.nav-links__list {
+  margin: 0;
+  margin-top: 18px;
+  padding: 0;
+
+  color: rgba(43, 41, 45, 0.6);
+  font-size: 18px;
+  line-height: 30px;
+
+  list-style-type: none;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  width: 1140px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.footer__line {
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid #2b292d;
+  opacity: 0.1;
+}
+
+.terms {
+  font-size: 14px;
+}
+
+.terms__item {
+  margin-right: 22px;
+  color: rgba(43, 41, 45, 0.6);
+  text-decoration: none;
+}
+
+.social-links {
+  margin-left: auto;
+}
+
+.social-links__item {
+  margin-left: 20px;
+}

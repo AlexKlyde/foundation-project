@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #2B292D;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 1400px;
+  min-height: 100vh;
+}
+
+.action-button {
+  width: 160px;
+  height: 48px;
+
+  background-color: #3040c4;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  border: none;
+  border-radius: 2px;
+}
