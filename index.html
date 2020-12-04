@@ -5,29 +5,53 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <img class="logo__image" src="img/Icon.png" alt="logo">
-      <span class="logo__name">Foundation</span>
-      <span class="logo__description">Startup landing template</span>
-    </div>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>Stories</li>
-        <li>Library</li>
-      </ul>
-    </nav>
-    <button class="header__button"></button>
-  </header>
-  <section>
+  <div class="page">
+    <div class="top-section">
+      <header class="header">
+        <div class="logo">
+          <img class="logo__image" src="img/Icon.png" alt="logo">
+          <div class="logo__text">
+            <div class="logo__name">Foundation</div>
+            <div class="logo__description">Startup landing template</div>
+          </div>
+        </div>
+        <nav class="navigation">
+            <a href="#" class="navigation__item navigation__item_selected">Home</a>
+            <a href="#" class="navigation__item">Stories</a>
+            <a href="#" class="navigation__item">Library<i class="navigation__arrow"></i></a>
+        </nav>
+        <button class="header__button">Get Started</button>
+      </header>
+      <section>
 
-  </section>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-navigation"></div>
+      <div class="footer__line"></div>
+      <div class="footer-links">
+        <nav class="terms">
+          <a class="terms__item" href="#">Terms</a>
+          <a class="terms__item" href="#">Privacy</a>
+          <a class="terms__item" href="#">Licence</a>
+        </nav>
+        <div class="social-links">
+          <a class="social-links__item" href="https://twitter.com"><img src="img/social-twitter.png" alt="twitter link"></a>
+          <a class="social-links__item" href="https://facebook.com"><img src="img/social-fb.png" alt="facbook link"></a>
+          <a class="social-links__item" href="https://linkedin.com"><img src="img/social-linkedin.png" alt="linkedin link"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

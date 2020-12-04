@@ -1,0 +1,90 @@
+.top-section {
+  padding-top: 39px;
+  background-color: #F3C6BD;
+}
+
+.header {
+  display: flex;
+  width: 1140px;
+  height: 62px;
+  margin: auto;
+}
+
+.navigation {
+  margin-left: auto;
+}
+
+
+.logo {
+ display: flex; 
+}
+
+.logo__image {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.logo__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo__name {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.logo__description {
+  font-size: 18px;
+  line-height: 25px;
+  color: #2B292D;
+  opacity: 0.6;
+}
+
+.navigation {
+  margin-left: auto;
+  margin-top: 7px;
+  margin-right: 75px;
+}
+
+.navigation__item {
+  margin-right: 50px;
+  color: #2B292D; 
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+.navigation__item:last-child {
+  margin-right: 0;
+}
+
+.navigation__item_selected {
+  font-weight: 700;
+}
+
+.navigation__arrow {
+  display: inline-block;
+  width: 8px;
+  height: 5px;
+  margin-left: 15px;
+  background-image: url("img/arrow.png");
+}
+
+.header__button {
+  width: 160;
+  height: 48;
+  padding: 17px 28px 18px;
+
+  background-color: #3040C4;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 700;
+  
+  border: none;
+  border-radius: 2px;
+}

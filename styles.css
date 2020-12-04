@@ -1,9 +1,18 @@
-* {
-  box-sizing: border-box;
-}
+/* Error: expected "{".
+ *    ,
+ * 43 |   margin-ri
+ *    |            ^
+ *    '
+ *   styles\footer.scss 43:12  @import
+ *   styles\index.scss 19:9    root stylesheet */
 
-html {
-  font-family: "Work Sans";
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 43 \2502    margin-ri\d\a    \2502             ^\a    \2575 \a   styles\\footer.scss 43:12  @import\a   styles\\index.scss 19:9    root stylesheet';
 }
-
-/*# sourceMappingURL=styles.css.map */
