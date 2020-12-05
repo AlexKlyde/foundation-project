@@ -1,0 +1,60 @@
+.tips {
+  margin-top: 8px;
+
+  @include for-large-up {
+    display: none;
+  }
+}
+
+.tip {
+  padding: 40px 15px 0px;
+  border-bottom: 1px solid #e3e3e3;
+
+  &:last-child {
+    border: none;
+  }
+
+  &__subtitle {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #009b4d;
+  }
+
+  &__title {
+    margin: 0;
+    margin-top: 17px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.3571428954601288px;
+  }
+
+  &__description {
+    margin: 0;
+    margin-top: 13px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+
+  &__image {
+    margin-top: 29px;
+  }
+
+  &__decoration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
+  &__image-caption {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    opacity: 0.6;
+    max-width: 100%;
+  }
+}
