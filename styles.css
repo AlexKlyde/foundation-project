@@ -823,10 +823,10 @@ html {
 
 .social-links {
   margin: 31px 0 22px;
-  text-decoration: none;
 }
 .social-links__item {
   margin-left: 20px;
+  text-decoration: none;
 }
 @media (min-width: 400px) {
   .social-links {
