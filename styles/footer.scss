@@ -14,7 +14,7 @@
       line-height: 26px;
       font-size: 18px;
       margin-top: 26px;
-      color: rgba(43, 41, 45, 0.6);
+      color: $text-color-light-grey;
     }
   }
 
@@ -120,7 +120,7 @@
     margin-top: 18px;
     padding: 0;
 
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-light-grey;
     font-size: 18px;
     line-height: 30px;
 
@@ -150,7 +150,7 @@
 
 .terms__item {
   margin-right: 22px;
-  color: rgba(43, 41, 45, 0.6);
+  color: $text-color-light-grey;
   text-decoration: none;
 }
 
