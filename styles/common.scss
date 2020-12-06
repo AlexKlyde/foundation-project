@@ -16,7 +16,7 @@ html {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 1400px;
+    max-width: 1400px;
     min-height: 100vh;
   }
 }
@@ -25,7 +25,7 @@ html {
   width: 160px;
   height: 48px;
 
-  background-color: #3040C4;
+  background-color: #3040c4;
   color: #fff;
 
   font-size: 18px;
@@ -34,5 +34,23 @@ html {
   border: none;
   border-radius: 2px;
 
-  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05), 0px 1px 3px 0px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(255,255,255,0.1) inset;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+}
+
+.learn-more-btn {
+  width: 158px;
+  height: 48px;
+
+  color: #3040c4;
+  background-color: #fff;
+
+  font-size: 18px;
+  line-height: 13px;
+  font-weight: 700;
+
+  border: none;
+  border-radius: 2px;
+
+  box-shadow: $button-shadow;
 }

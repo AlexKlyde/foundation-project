@@ -66,34 +66,18 @@
     }
   }
 
+  &__learn-more-btn,
   &__button {
-    width: 100%;
-
-    @include for-large-up {
-      width: 160px;
+    @include for-large-down {
+      width: 100%;
     }
   }
 
   &__learn-more-btn {
-    width: 100%;
-    height: 48px;
-
     margin-top: 15px;
-
-    background-color: #fff;
     color: #000;
 
-    font-size: 18px;
-    line-height: 13px;
-    font-weight: 700;
-
-    border: none;
-    border-radius: 2px;
-
-    box-shadow: $button-shadow;
-
     @include for-large-up {
-      width: 158px;
       margin-top: 0;
       margin-left: 10px;
     }
@@ -120,15 +104,16 @@
 
     background-color: #fff;
     text-decoration: none;
-    
-    box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.05), 0px 1px 3px 0px rgba(0,0,0,0.1), 0px 1px 0px 0px rgba(255,255,255,0.1) inset;
+
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+      0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
     border-radius: 8px;
     &:last-child {
       margin-bottom: 0;
     }
 
     &:hover {
-      background-color: #3141C5;
+      background-color: #3141c5;
 
       .audience__caption {
         color: #fff;
