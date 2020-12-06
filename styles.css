@@ -589,11 +589,14 @@ html {
   max-width: 555px;
 }
 .order__illustration {
+  display: block;
+  margin: auto;
   width: 200px;
 }
 @media (min-width: 400px) {
   .order__illustration {
     width: 269px;
+    margin: 0;
     margin-right: 121px;
   }
 }

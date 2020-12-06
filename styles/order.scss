@@ -14,10 +14,13 @@
   }
 
   &__illustration {
+    display: block;
+    margin: auto;
     width: 200px;
 
     @include for-large-up {
       width: 269px;
+      margin: 0;
       margin-right: 121px;
     }
   }
