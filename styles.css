@@ -530,6 +530,7 @@ html {
   flex-direction: column;
   align-items: center;
   padding: 22px 0 33px 0;
+  margin: 0;
   margin-bottom: 15px;
   background-color: #fff;
   text-decoration: none;
@@ -542,7 +543,7 @@ html {
 .audience__list-item:hover {
   background-color: #3141c5;
 }
-.audience__list-item:hover .audience__caption {
+.audience__list-item:hover figcaption {
   color: #fff;
 }
 @media (min-width: 400px) {
