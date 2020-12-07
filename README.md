@@ -1,6 +1,6 @@
 # [Foundation Project](https://alexklyde.github.io/foundation-project/)
 
-## QUICK START
+### QUICK START
 
 Clone the project.
 
@@ -13,4 +13,4 @@ The teck stack is:
 
 ### Author: 
 
-## [Aleksei Kalaida](https://alekseikalaidacv.netlify.app/)
+### [Aleksei Kalaida](https://alekseikalaidacv.netlify.app/)
