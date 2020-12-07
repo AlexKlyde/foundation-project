@@ -1,6 +1,6 @@
 .order {
   padding: 50px 15px;
-  background-color: $color-light;
+  background-color: $order-background-color;
 
   @include for-large-up {
     display: flex;
@@ -28,7 +28,6 @@
   &__title {
     margin: 0;
     margin-top: 40px;
-
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
@@ -60,16 +59,14 @@
     width: 100%;
     height: 48px;
     margin-top: 40px;
-    border: 1px solid $border-color;
+    border: 1px solid rgba(43,41,45,0.2);
     border-radius: 2px;
-    background-color: #fff;
-
     font-size: 18px;
     line-height: 13px;
     text-align: center;
 
     &::placeholder {
-      color: $color-dark;
+      color: $main-text-color;
     }
 
     @include for-large-up {
@@ -85,22 +82,21 @@
     }
 
     @include for-large-up {
+      flex-shrink: 0;
       margin: 0;
       margin-left: 10px;
-      flex-shrink: 0;
     }
   }
 
   &__terms {
     margin: 0;
     margin-top: 10px;
-
     color: $text-color-light-grey;
     font-size: 14px;
     line-height: 22px;
   }
 
   &__terms-link {
-    color: $text-color-blue;
+    color: #3040c4;
   }
 }

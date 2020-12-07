@@ -22,7 +22,7 @@ html {
   }
 }
 
-.action-button {
+.button {
   width: 160px;
   height: 48px;
   background-color: #3040c4;
@@ -32,19 +32,7 @@ html {
   border: none;
   border-radius: 2px;
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
-}
-
-.learn-more-btn {
-  width: 158px;
-  height: 48px;
-  color: #3040c4;
-  background-color: #fff;
-  font-size: 18px;
-  line-height: 13px;
-  font-weight: 700;
-  border: none;
-  border-radius: 2px;
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
+  cursor: pointer;
 }
 
 .header {
@@ -61,19 +49,6 @@ html {
     height: 62px;
     margin: auto;
     background-color: #f3c6bd;
-  }
-}
-
-.header .logo__description {
-  display: none;
-}
-@media (min-width: 400px) {
-  .header .logo__description {
-    display: block;
-    font-size: 18px;
-    line-height: 25px;
-    color: #2b292d;
-    opacity: 0.6;
   }
 }
 
@@ -112,6 +87,20 @@ html {
   font-weight: 700;
   line-height: 25px;
 }
+.logo__description {
+  font-size: 18px;
+  line-height: 25px;
+  opacity: 0.6;
+}
+
+.header .logo__description {
+  display: none;
+}
+@media (min-width: 400px) {
+  .header .logo__description {
+    display: block;
+  }
+}
 
 .navigation {
   display: none;
@@ -141,8 +130,9 @@ html {
   display: inline-block;
   width: 8px;
   height: 5px;
-  margin-left: 15px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
+  margin-left: 11px;
+  background-image: url("img/arrow.png");
+  vertical-align: middle;
 }
 
 .header__button {
@@ -172,7 +162,7 @@ html {
   display: inline-block;
   width: 18px;
   height: 13px;
-  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
+  background-image: url("img/icon-menu.png");
 }
 
 .headline {
@@ -237,6 +227,8 @@ html {
 }
 .headline__learn-more-btn {
   margin-top: 15px;
+  color: #3040c4;
+  background-color: #fff;
 }
 @media (max-width: 399px) {
   .headline__learn-more-btn {
@@ -437,11 +429,12 @@ html {
 }
 .audience {
   padding: 50px 15px;
-  background-color: #00A1C612;
+  background-color: #00a1c612;
 }
 @media (min-width: 400px) {
   .audience {
     padding: 0;
+    width: 100%;
   }
 }
 @media (min-width: 400px) {
@@ -464,7 +457,7 @@ html {
   font-size: 40px;
   font-weight: 700;
   line-height: 40px;
-  letter-spacing: -0.3571428955px;
+  letter-spacing: -0.35px;
   text-align: center;
 }
 @media (min-width: 400px) {
@@ -506,6 +499,7 @@ html {
 .audience__learn-more-btn {
   margin-top: 12px;
   color: #000;
+  background-color: #fff;
 }
 @media (min-width: 400px) {
   .audience__learn-more-btn {
@@ -513,11 +507,12 @@ html {
     margin-left: 10px;
   }
 }
-.audience__user-cards {
+
+.cards {
   margin-top: 40px;
 }
 @media (min-width: 400px) {
-  .audience__user-cards {
+  .cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -531,10 +526,8 @@ html {
   flex-direction: column;
   align-items: center;
   padding: 22px 0 33px 0;
-  margin: 0;
   margin-bottom: 15px;
   background-color: #fff;
-  text-decoration: none;
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   border-radius: 8px;
 }
@@ -543,16 +536,17 @@ html {
 }
 .user-card:hover {
   background-color: #3141c5;
+  cursor: pointer;
 }
-.user-card:hover figcaption {
+.user-card:hover .user-card__caption {
   color: #fff;
 }
 @media (min-width: 400px) {
   .user-card {
-    max-width: 262px;
     flex-grow: 1;
+    max-width: 262px;
+    margin: 0;
     margin-left: 31px;
-    margin-bottom: 0;
   }
   .user-card:first-child {
     margin-left: 0;
@@ -563,7 +557,6 @@ html {
 }
 .user-card__caption {
   margin-top: 22px;
-  color: #2B292D;
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
@@ -572,7 +565,7 @@ html {
 
 .order {
   padding: 50px 15px;
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 @media (min-width: 400px) {
   .order {
@@ -628,15 +621,14 @@ html {
   width: 100%;
   height: 48px;
   margin-top: 40px;
-  border: 1px solid #2B292D33;
+  border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
-  background-color: #fff;
   font-size: 18px;
   line-height: 13px;
   text-align: center;
 }
 .order__email::placeholder {
-  color: #2B292D;
+  color: #2b292d;
 }
 @media (min-width: 400px) {
   .order__email {
@@ -653,9 +645,9 @@ html {
 }
 @media (min-width: 400px) {
   .order__button {
+    flex-shrink: 0;
     margin: 0;
     margin-left: 10px;
-    flex-shrink: 0;
   }
 }
 .order__terms {
@@ -666,7 +658,7 @@ html {
   line-height: 22px;
 }
 .order__terms-link {
-  color: #3142C6;
+  color: #3040c4;
 }
 
 @media (min-width: 400px) {
@@ -770,7 +762,6 @@ html {
 .nav-links__title {
   margin: 0;
   margin-top: 30px;
-  color: #2b292d;
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;

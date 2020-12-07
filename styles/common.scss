@@ -5,7 +5,7 @@
 html {
   font-family: 'Work Sans', sans-serif;
   font-size: 16px;
-  color: #2b292d;
+  color: $main-text-color;
 }
 
 .page {
@@ -21,35 +21,15 @@ html {
   }
 }
 
-.action-button {
+.button {
   width: 160px;
   height: 48px;
-
-  background-color: #3040c4;
+  background-color: $action-button-color;
   color: #fff;
-
   font-size: 18px;
   font-weight: 700;
-
   border: none;
   border-radius: 2px;
-
   box-shadow: $shadow;
-}
-
-.learn-more-btn {
-  width: 158px;
-  height: 48px;
-
-  color: #3040c4;
-  background-color: #fff;
-
-  font-size: 18px;
-  line-height: 13px;
-  font-weight: 700;
-
-  border: none;
-  border-radius: 2px;
-
-  box-shadow: $shadow;
+  cursor: pointer;
 }

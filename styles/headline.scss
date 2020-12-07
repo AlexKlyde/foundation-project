@@ -59,6 +59,8 @@
 
   &__learn-more-btn {
     margin-top: 15px;
+    color: #3040c4;
+    background-color: #fff;
 
     @include for-large-down {
       width: 100%;
