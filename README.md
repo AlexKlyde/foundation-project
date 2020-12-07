@@ -11,6 +11,4 @@ The teck stack is:
 * Sass (SCSS)
 * BEM methodology
 
-### Author: 
-
-### [Aleksei Kalaida](https://alekseikalaidacv.netlify.app/)
+### Author: [Aleksei Kalaida](https://alekseikalaidacv.netlify.app/)
