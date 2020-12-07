@@ -525,7 +525,19 @@ html {
     margin: 111px auto 110px auto;
   }
 }
-.audience__user-card {
+.audience__image {
+  max-width: 100%;
+}
+.audience__caption {
+  margin-top: 22px;
+  color: #2B292D;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.user-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -537,36 +549,25 @@ html {
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   border-radius: 8px;
 }
-.audience__user-card:last-child {
+.user-card:last-child {
   margin-bottom: 0;
 }
-.audience__user-card:hover {
+.user-card:hover {
   background-color: #3141c5;
 }
-.audience__user-card:hover figcaption {
+.user-card:hover figcaption {
   color: #fff;
 }
 @media (min-width: 400px) {
-  .audience__user-card {
+  .user-card {
     max-width: 262px;
     flex-grow: 1;
     margin-left: 31px;
     margin-bottom: 0;
   }
-  .audience__user-card:first-child {
+  .user-card:first-child {
     margin-left: 0;
   }
-}
-.audience__image {
-  max-width: 100%;
-}
-.audience__caption {
-  margin-top: 22px;
-  color: #2B292D;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
 }
 
 .order {
