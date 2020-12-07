@@ -4,7 +4,7 @@
 
 Clone the project.
 
-The teck stack is:
+The tech stack is:
 * HTML5
 * CSS3
 * Flexbox
