@@ -513,28 +513,17 @@ html {
     margin-left: 10px;
   }
 }
-.audience__list {
+.audience__user-cards {
   margin-top: 40px;
 }
 @media (min-width: 400px) {
-  .audience__list {
+  .audience__user-cards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 1139px;
     margin: 111px auto 110px auto;
   }
-}
-.audience__image {
-  max-width: 100%;
-}
-.audience__caption {
-  margin-top: 22px;
-  color: #2B292D;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 28px;
-  text-align: center;
 }
 
 .user-card {
@@ -546,7 +535,6 @@ html {
   margin-bottom: 15px;
   background-color: #fff;
   text-decoration: none;
-  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   border-radius: 8px;
 }
 .user-card:last-child {
@@ -568,6 +556,17 @@ html {
   .user-card:first-child {
     margin-left: 0;
   }
+}
+.user-card__image {
+  max-width: 100%;
+}
+.user-card__caption {
+  margin-top: 22px;
+  color: #2B292D;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
 }
 
 .order {

@@ -83,7 +83,7 @@
     }
   }
 
-  &__list {
+  &__user-cards {
     margin-top: 40px;
 
     @include for-large-up {
@@ -93,19 +93,6 @@
       width: 1139px;
       margin: 111px auto 110px auto;
     }
-  }
-
-  &__image {
-    max-width: 100%;
-  }
-
-  &__caption {
-    margin-top: 22px;
-    color: $color-dark;
-    font-size: 22px;
-    font-weight: 700;
-    line-height: 28px;
-    text-align: center;
   }
 }
 
@@ -120,8 +107,9 @@
   background-color: #fff;
   text-decoration: none;
 
-  box-shadow: $shadow;
+  // box-shadow: $shadow;
   border-radius: 8px;
+
   &:last-child {
     margin-bottom: 0;
   }
@@ -143,5 +131,18 @@
     &:first-child {
       margin-left: 0;
     }
+  }
+
+  &__image {
+    max-width: 100%;
+  }
+
+  &__caption {
+    margin-top: 22px;
+    color: $color-dark;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
   }
 }
