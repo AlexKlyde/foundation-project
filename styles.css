@@ -525,7 +525,7 @@ html {
     margin: 111px auto 110px auto;
   }
 }
-.audience__list-item {
+.audience__user-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -537,23 +537,23 @@ html {
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 0px 1px 0px 0px rgba(255, 255, 255, 0.1) inset;
   border-radius: 8px;
 }
-.audience__list-item:last-child {
+.audience__user-card:last-child {
   margin-bottom: 0;
 }
-.audience__list-item:hover {
+.audience__user-card:hover {
   background-color: #3141c5;
 }
-.audience__list-item:hover figcaption {
+.audience__user-card:hover figcaption {
   color: #fff;
 }
 @media (min-width: 400px) {
-  .audience__list-item {
+  .audience__user-card {
     max-width: 262px;
     flex-grow: 1;
     margin-left: 31px;
     margin-bottom: 0;
   }
-  .audience__list-item:first-child {
+  .audience__user-card:first-child {
     margin-left: 0;
   }
 }
