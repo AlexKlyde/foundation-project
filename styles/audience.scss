@@ -74,7 +74,7 @@
   }
 
   &__learn-more-btn {
-    margin-top: 15px;
+    margin-top: 12px;
     color: #000;
 
     @include for-large-up {
@@ -107,7 +107,7 @@
   background-color: #fff;
   text-decoration: none;
 
-  // box-shadow: $shadow;
+  box-shadow: $shadow;
   border-radius: 8px;
 
   &:last-child {
