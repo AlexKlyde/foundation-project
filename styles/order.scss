@@ -1,4 +1,5 @@
 .order {
+  // width: 100%;
   padding: 50px 15px;
   background-color: $order-background-color;
 
@@ -11,11 +12,16 @@
 
   &__details {
     max-width: 555px;
+    margin: 0 auto;
+
+    @include for-large-up {
+      margin: 0;
+    }
   }
 
   &__illustration {
     display: block;
-    margin: auto;
+    margin: auto ;
     width: 200px;
 
     @include for-large-up {

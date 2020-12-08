@@ -12,7 +12,7 @@ html {
   width: 100%;
   overflow-x: hidden;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .page {
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ html {
   }
 }
 
-.button {
+.action-button {
   width: 160px;
   height: 48px;
   background-color: #3040c4;
@@ -43,7 +43,7 @@ html {
   padding-left: 15px;
   background-color: #fff;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .header {
     width: 1140px;
     height: 62px;
@@ -55,7 +55,7 @@ html {
 .top-section {
   background-color: #f3c6bd;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .top-section {
     padding-top: 39px;
   }
@@ -69,7 +69,7 @@ html {
   height: 48px;
   margin-right: 13px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .logo__image {
     width: 60px;
     height: 60px;
@@ -96,7 +96,7 @@ html {
 .header .logo__description {
   display: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .header .logo__description {
     display: block;
   }
@@ -105,7 +105,7 @@ html {
 .navigation {
   display: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .navigation {
     display: block;
     margin-left: auto;
@@ -138,7 +138,7 @@ html {
 .header__button {
   display: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .header__button {
     display: block;
   }
@@ -152,7 +152,7 @@ html {
   margin-left: auto;
   background-color: transparent;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .header__menu-button {
     display: none;
   }
@@ -168,7 +168,7 @@ html {
 .headline {
   width: 100%;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .headline {
     position: relative;
     width: 1140px;
@@ -179,7 +179,7 @@ html {
 .headline__content {
   margin: 35px 15px 33px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .headline__content {
     position: relative;
     z-index: 1;
@@ -193,7 +193,7 @@ html {
   line-height: 50px;
   letter-spacing: -0.3125px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .headline__title {
     width: 754px;
     height: 165px;
@@ -208,7 +208,7 @@ html {
   font-size: 24px;
   line-height: 34px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .headline__description {
     margin-top: 34px;
     width: 456px;
@@ -218,7 +218,7 @@ html {
 .headline__buttons {
   margin-top: 30px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .headline__buttons {
     display: flex;
     margin-top: 58px;
@@ -230,12 +230,12 @@ html {
   color: #3040c4;
   background-color: #fff;
 }
-@media (max-width: 399px) {
+@media (max-width: 1399px) {
   .headline__learn-more-btn {
     width: 100%;
   }
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .headline__learn-more-btn {
     margin-left: 10px;
     margin-top: 0;
@@ -245,7 +245,7 @@ html {
   width: 100%;
   margin-bottom: 36px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .headline__banner {
     position: absolute;
     top: 0;
@@ -265,7 +265,7 @@ html {
   padding: 46px 15px 46px;
   background-color: #f4f5f7;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .about {
     display: flex;
     justify-content: space-between;
@@ -273,7 +273,7 @@ html {
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .article {
     width: 555px;
   }
@@ -281,7 +281,7 @@ html {
 .article:last-child {
   margin-top: 20px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .article:last-child {
     margin-top: 0;
   }
@@ -303,7 +303,7 @@ html {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .customers {
     display: flex;
     flex-direction: row;
@@ -318,7 +318,7 @@ html {
 .customers__row {
   display: flex;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .customers__row {
     flex: 1;
     justify-content: space-around;
@@ -338,7 +338,7 @@ html {
   border-right: 1px solid #e3e3e3;
   flex: 1;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .customers__item {
     border: none;
   }
@@ -351,7 +351,7 @@ html {
   display: none;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .features {
     display: flex;
     position: relative;
@@ -431,13 +431,13 @@ html {
   padding: 50px 15px;
   background-color: #00a1c612;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .audience {
     padding: 0;
     width: 100%;
   }
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .audience__details {
     margin: auto;
     margin-top: 108px;
@@ -460,7 +460,7 @@ html {
   letter-spacing: -0.35px;
   text-align: center;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .audience__title {
     margin-top: 24px;
     font-size: 56px;
@@ -476,7 +476,7 @@ html {
   line-height: 34px;
   text-align: center;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .audience__text {
     margin-top: 30px;
   }
@@ -484,14 +484,14 @@ html {
 .audience__buttons {
   margin-top: 30px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .audience__buttons {
     display: flex;
     justify-content: center;
     margin-top: 34px;
   }
 }
-@media (max-width: 399px) {
+@media (max-width: 1399px) {
   .audience__learn-more-btn, .audience__button {
     width: 100%;
   }
@@ -501,7 +501,7 @@ html {
   color: #000;
   background-color: #fff;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .audience__learn-more-btn {
     margin-top: 0;
     margin-left: 10px;
@@ -511,7 +511,7 @@ html {
 .cards {
   margin-top: 40px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .cards {
     display: flex;
     flex-direction: row;
@@ -542,7 +542,7 @@ html {
 .user-card:hover .user-card__caption {
   color: #fff;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .user-card {
     flex-grow: 1;
     max-width: 262px;
@@ -568,7 +568,7 @@ html {
   padding: 50px 15px;
   background-color: #f4f5f7;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .order {
     display: flex;
     justify-content: center;
@@ -578,13 +578,19 @@ html {
 }
 .order__details {
   max-width: 555px;
+  margin: 0 auto;
+}
+@media (min-width: 1400px) {
+  .order__details {
+    margin: 0;
+  }
 }
 .order__illustration {
   display: block;
   margin: auto;
   width: 200px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .order__illustration {
     width: 269px;
     margin: 0;
@@ -600,7 +606,7 @@ html {
   letter-spacing: -0.25px;
   text-align: center;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .order__title {
     text-align: left;
     margin: 0;
@@ -612,7 +618,7 @@ html {
   font-size: 22px;
   line-height: 32px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .order__form {
     display: flex;
     margin-top: 26px;
@@ -631,7 +637,7 @@ html {
 .order__email::placeholder {
   color: #2b292d;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .order__email {
     margin: 0;
   }
@@ -639,12 +645,12 @@ html {
 .order__button {
   margin-top: 12px;
 }
-@media (max-width: 399px) {
+@media (max-width: 1399px) {
   .order__button {
     width: 100%;
   }
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .order__button {
     flex-shrink: 0;
     margin: 0;
@@ -662,7 +668,7 @@ html {
   color: #3040c4;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -672,7 +678,7 @@ html {
 .footer__description {
   display: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .footer__description {
     display: block;
     width: 360px;
@@ -682,7 +688,7 @@ html {
     color: #2b292d99;
   }
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .footer__line {
     width: 100%;
     margin: 0;
@@ -695,7 +701,7 @@ html {
   display: flex;
   flex-direction: column;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .footer-navigation {
     flex-direction: row;
     width: 1140px;
@@ -709,7 +715,7 @@ html {
   padding-right: 0;
   border-bottom: 1px solid #e3e3e3;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .about-company {
     padding: 0;
     border: none;
@@ -717,7 +723,7 @@ html {
   }
 }
 
-@media (max-width: 399px) {
+@media (max-width: 1399px) {
   .footer .logo {
     display: none;
   }
@@ -734,7 +740,7 @@ html {
 .downloads__item:last-child {
   margin-right: 0;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .downloads {
     display: block;
     padding: 0;
@@ -747,14 +753,14 @@ html {
   flex-direction: column;
   margin: 0 15px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .additional-navigation {
     flex-direction: row;
     margin-top: 60px;
     margin-left: auto;
   }
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .additional-navigation__column {
     margin-right: 29px;
   }
@@ -767,13 +773,13 @@ html {
   font-weight: 700;
   line-height: 28px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .nav-links__title {
     margin-top: 0;
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .nav-links {
     width: 265px;
   }
@@ -788,7 +794,7 @@ html {
   list-style-type: none;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .footer-links {
     display: flex;
     align-items: center;
@@ -803,7 +809,7 @@ html {
   font-size: 14px;
   line-height: 22px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .terms {
     margin-top: 0;
   }
@@ -822,7 +828,7 @@ html {
   margin-left: 20px;
   text-decoration: none;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .social-links {
     margin: 0;
     margin-left: auto;
@@ -834,7 +840,7 @@ html {
   flex-direction: column;
   align-items: center;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .logo-vertical {
     display: none;
   }
@@ -860,7 +866,7 @@ html {
 .tips {
   margin-top: 8px;
 }
-@media (min-width: 400px) {
+@media (min-width: 1400px) {
   .tips {
     display: none;
   }
